@@ -21,7 +21,7 @@ struct ContentView: View {
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                Text(question.questionText) // updated 
+                Text(question.questionText) // updated
                     .font(.largeTitle)
                     .bold()
                     .multilineTextAlignment(.leading)
@@ -30,7 +30,7 @@ struct ContentView: View {
                 Button(action: {
                     print("Tapped")
                 }, label: {
-                    Text("Ant")
+                    Text(question.possibleAnswers[0])
                         .font(.body)
                         .bold()
                         .multilineTextAlignment(.center)
@@ -41,7 +41,7 @@ struct ContentView: View {
                 Button(action: {
                     print("")
                 }, label: {
-                    Text("Beetle")
+                    Text(question.possibleAnswers[1])
                         .font(.body)
                         .bold()
                         .multilineTextAlignment(.center)
@@ -52,7 +52,7 @@ struct ContentView: View {
                 Button(action: {
                     print("")
                 }, label: {
-                    Text("Moth")
+                    Text(question.possibleAnswers[2])
                         .font(.body)
                         .bold()
                         .multilineTextAlignment(.center)
@@ -63,7 +63,7 @@ struct ContentView: View {
                 Button(action: {
                     print("")
                 }, label: {
-                    Text("Fly")
+                    Text(question.possibleAnswers[3])
                         .font(.body)
                         .bold()
                         .multilineTextAlignment(.center)
