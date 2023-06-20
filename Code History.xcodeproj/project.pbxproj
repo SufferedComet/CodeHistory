@@ -12,6 +12,7 @@
 		1D3DA3382A41149900F799D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DA3372A41149900F799D8 /* Assets.xcassets */; };
 		1D3DA33B2A41149900F799D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DA33A2A41149900F799D8 /* Preview Assets.xcassets */; };
 		1D3DA3422A41203F00F799D8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3DA3412A41203F00F799D8 /* Question.swift */; };
+		1D3DA3442A41221F00F799D8 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3DA3432A41221F00F799D8 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1D3DA3372A41149900F799D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3DA33A2A41149900F799D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D3DA3412A41203F00F799D8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1D3DA3432A41221F00F799D8 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1D3DA3372A41149900F799D8 /* Assets.xcassets */,
 				1D3DA3392A41149900F799D8 /* Preview Content */,
 				1D3DA3412A41203F00F799D8 /* Question.swift */,
+				1D3DA3432A41221F00F799D8 /* ChoiceTextView.swift */,
 			);
 			path = "Code History";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				1D3DA3422A41203F00F799D8 /* Question.swift in Sources */,
 				1D3DA3362A41149800F799D8 /* ContentView.swift in Sources */,
+				1D3DA3442A41221F00F799D8 /* ChoiceTextView.swift in Sources */,
 				1D3DA3342A41149800F799D8 /* Code_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
