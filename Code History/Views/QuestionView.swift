@@ -22,7 +22,6 @@ struct QuestionView: View {
             HStack {
                 ForEach(0..<question.possibleAnswers.count) { answerIndex in
                     Button(action: {
-                        print("Clicked")
                         viewModel.makeGuess(atIndex: answerIndex)
                     }) {
                         ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
