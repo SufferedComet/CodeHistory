@@ -23,7 +23,7 @@ struct GameView: View {
             }
         }
         .background(
-                NavigationLink(destination: Text("Game Over!"), isActive: .constant(viewModel.gameIsOver), label: { EmptyView() })
+            NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(correctGuesses: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses)), isActive: .constant(viewModel.gameIsOver), label: { EmptyView() })
         )
         .foregroundColor(.white)
        //.navigationBarHidden This code will be removed in the future .toolbar(.hidden) This code is prefered
